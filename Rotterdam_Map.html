@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2cab2f6a490385d352fabb9e1a658ceb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2cab2f6a490385d352fabb9e1a658ceb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2cab2f6a490385d352fabb9e1a658ceb = L.map(
+                "map_2cab2f6a490385d352fabb9e1a658ceb",
+                {
+                    center: [51.9194, 4.4799],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ec67cdeaa703b74d594ecad0ac749de = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2cab2f6a490385d352fabb9e1a658ceb);
+        
+    
+            var marker_d398d68f96308c4c0cce6b732cdc5d51 = L.marker(
+                [51.9208, 4.4774],
+                {}
+            ).addTo(map_2cab2f6a490385d352fabb9e1a658ceb);
+        
+    
+            var icon_563273ef2e1893697a9358147678cac3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d398d68f96308c4c0cce6b732cdc5d51.setIcon(icon_563273ef2e1893697a9358147678cac3);
+        
+    
+        var popup_b2ebafec553f6611920369ded004ce50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_558c152f265b8e49eb007b637f24d49d = $(`<div id="html_558c152f265b8e49eb007b637f24d49d" style="width: 100.0%; height: 100.0%;">Witte de Withstraat</div>`)[0];
+                popup_b2ebafec553f6611920369ded004ce50.setContent(html_558c152f265b8e49eb007b637f24d49d);
+            
+        
+
+        marker_d398d68f96308c4c0cce6b732cdc5d51.bindPopup(popup_b2ebafec553f6611920369ded004ce50)
+        ;
+
+        
+    
+    
+            var marker_6b52c5d5e6de31b3e983ba1e78f2b5db = L.marker(
+                [51.9219, 4.511],
+                {}
+            ).addTo(map_2cab2f6a490385d352fabb9e1a658ceb);
+        
+    
+            var icon_4830d10b7e6b814201d76525d4580a3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b52c5d5e6de31b3e983ba1e78f2b5db.setIcon(icon_4830d10b7e6b814201d76525d4580a3b);
+        
+    
+        var popup_34ea24cbe36131c1f80fe0c1bc65c908 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71c76cf90d62238f86804e6372d3a6e7 = $(`<div id="html_71c76cf90d62238f86804e6372d3a6e7" style="width: 100.0%; height: 100.0%;">Kralingen</div>`)[0];
+                popup_34ea24cbe36131c1f80fe0c1bc65c908.setContent(html_71c76cf90d62238f86804e6372d3a6e7);
+            
+        
+
+        marker_6b52c5d5e6de31b3e983ba1e78f2b5db.bindPopup(popup_34ea24cbe36131c1f80fe0c1bc65c908)
+        ;
+
+        
+    
+    
+            var marker_2dce5c64b74342e5fa849e68666459e1 = L.marker(
+                [51.9061, 4.4881],
+                {}
+            ).addTo(map_2cab2f6a490385d352fabb9e1a658ceb);
+        
+    
+            var icon_e59ef4292f9bf6fed1b76935d39920b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2dce5c64b74342e5fa849e68666459e1.setIcon(icon_e59ef4292f9bf6fed1b76935d39920b4);
+        
+    
+        var popup_ce229e1e32ccde8ca5841d4574a317f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af2fed4f043e64871ca4bc2cc6da3a7f = $(`<div id="html_af2fed4f043e64871ca4bc2cc6da3a7f" style="width: 100.0%; height: 100.0%;">Kop van Zuid</div>`)[0];
+                popup_ce229e1e32ccde8ca5841d4574a317f0.setContent(html_af2fed4f043e64871ca4bc2cc6da3a7f);
+            
+        
+
+        marker_2dce5c64b74342e5fa849e68666459e1.bindPopup(popup_ce229e1e32ccde8ca5841d4574a317f0)
+        ;
+
+        
+    
+    
+            var marker_3fc22d418c8b63960a3301296c8c3a63 = L.marker(
+                [51.9368, 4.4772],
+                {}
+            ).addTo(map_2cab2f6a490385d352fabb9e1a658ceb);
+        
+    
+            var icon_561fd7768f8f95c05891701306abf1d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fc22d418c8b63960a3301296c8c3a63.setIcon(icon_561fd7768f8f95c05891701306abf1d7);
+        
+    
+        var popup_f1189ed63dad2e7f424154e88f087ccc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7b42bd58439d328ee813a25896dbd51 = $(`<div id="html_e7b42bd58439d328ee813a25896dbd51" style="width: 100.0%; height: 100.0%;">Oude Noorden</div>`)[0];
+                popup_f1189ed63dad2e7f424154e88f087ccc.setContent(html_e7b42bd58439d328ee813a25896dbd51);
+            
+        
+
+        marker_3fc22d418c8b63960a3301296c8c3a63.bindPopup(popup_f1189ed63dad2e7f424154e88f087ccc)
+        ;
+
+        
+    
+    
+            var marker_f6952dd1711e716e37e00187e832e6bd = L.marker(
+                [51.9113, 4.443],
+                {}
+            ).addTo(map_2cab2f6a490385d352fabb9e1a658ceb);
+        
+    
+            var icon_ffd6baa01f0e2a1972cfa5f9de658014 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6952dd1711e716e37e00187e832e6bd.setIcon(icon_ffd6baa01f0e2a1972cfa5f9de658014);
+        
+    
+        var popup_bdd904da552c4644489b76df43bdec7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a528d63b16a51d1d72f397f0e84ef4b5 = $(`<div id="html_a528d63b16a51d1d72f397f0e84ef4b5" style="width: 100.0%; height: 100.0%;">Delfshaven</div>`)[0];
+                popup_bdd904da552c4644489b76df43bdec7b.setContent(html_a528d63b16a51d1d72f397f0e84ef4b5);
+            
+        
+
+        marker_f6952dd1711e716e37e00187e832e6bd.bindPopup(popup_bdd904da552c4644489b76df43bdec7b)
+        ;
+
+        
+    
+</script>
+</html>

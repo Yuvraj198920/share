@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb343e7fdc29293ef92c179e89cbfd49 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb343e7fdc29293ef92c179e89cbfd49" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb343e7fdc29293ef92c179e89cbfd49 = L.map(
+                "map_bb343e7fdc29293ef92c179e89cbfd49",
+                {
+                    center: [52.368, 4.9036],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b5b385a35077c327ef194d79c8dafa34 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bb343e7fdc29293ef92c179e89cbfd49);
+        
+    
+            var marker_67348511e8c357e2309b840c48e5bbdc = L.marker(
+                [52.3702, 4.8952],
+                {}
+            ).addTo(map_bb343e7fdc29293ef92c179e89cbfd49);
+        
+    
+            var icon_bd77314d632df52f082748017bc5bc6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67348511e8c357e2309b840c48e5bbdc.setIcon(icon_bd77314d632df52f082748017bc5bc6f);
+        
+    
+        var popup_c013fd76780652e33fda96dac0483784 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1038023d4b45c91f720f5009d36eb64 = $(`<div id="html_e1038023d4b45c91f720f5009d36eb64" style="width: 100.0%; height: 100.0%;">Canal Ring</div>`)[0];
+                popup_c013fd76780652e33fda96dac0483784.setContent(html_e1038023d4b45c91f720f5009d36eb64);
+            
+        
+
+        marker_67348511e8c357e2309b840c48e5bbdc.bindPopup(popup_c013fd76780652e33fda96dac0483784)
+        ;
+
+        
+    
+    
+            var marker_129feedead5fea52d5d4c74f2b95c0b1 = L.marker(
+                [52.3774, 4.8818],
+                {}
+            ).addTo(map_bb343e7fdc29293ef92c179e89cbfd49);
+        
+    
+            var icon_3576d56c59b4ea002e063c3eada3416a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_129feedead5fea52d5d4c74f2b95c0b1.setIcon(icon_3576d56c59b4ea002e063c3eada3416a);
+        
+    
+        var popup_231c551d9e44b0853afdd42849d490d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50ce49da628947741f377a9464213547 = $(`<div id="html_50ce49da628947741f377a9464213547" style="width: 100.0%; height: 100.0%;">Jordaan</div>`)[0];
+                popup_231c551d9e44b0853afdd42849d490d7.setContent(html_50ce49da628947741f377a9464213547);
+            
+        
+
+        marker_129feedead5fea52d5d4c74f2b95c0b1.bindPopup(popup_231c551d9e44b0853afdd42849d490d7)
+        ;
+
+        
+    
+    
+            var marker_723285b1e0056f3c588b8ea51cf3eb9b = L.marker(
+                [52.354, 4.8973],
+                {}
+            ).addTo(map_bb343e7fdc29293ef92c179e89cbfd49);
+        
+    
+            var icon_351c78b55663a7d12b3d9b93c87de387 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_723285b1e0056f3c588b8ea51cf3eb9b.setIcon(icon_351c78b55663a7d12b3d9b93c87de387);
+        
+    
+        var popup_c69b8b12bc3d519a09eb708cc8df2881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06a26c784ef78e96b3d1a34873460c63 = $(`<div id="html_06a26c784ef78e96b3d1a34873460c63" style="width: 100.0%; height: 100.0%;">De Pijp</div>`)[0];
+                popup_c69b8b12bc3d519a09eb708cc8df2881.setContent(html_06a26c784ef78e96b3d1a34873460c63);
+            
+        
+
+        marker_723285b1e0056f3c588b8ea51cf3eb9b.bindPopup(popup_c69b8b12bc3d519a09eb708cc8df2881)
+        ;
+
+        
+    
+    
+            var marker_74c0da617eab088a31a2f0fa962654db = L.marker(
+                [52.3679, 4.8662],
+                {}
+            ).addTo(map_bb343e7fdc29293ef92c179e89cbfd49);
+        
+    
+            var icon_f6598bdae4deb71fd57615fd128d41e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_74c0da617eab088a31a2f0fa962654db.setIcon(icon_f6598bdae4deb71fd57615fd128d41e1);
+        
+    
+        var popup_3d5dadd1dca99e53d828b53c3dc00476 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b4cf59afcc21a0e43dc2b21186cf062 = $(`<div id="html_6b4cf59afcc21a0e43dc2b21186cf062" style="width: 100.0%; height: 100.0%;">Oud-West</div>`)[0];
+                popup_3d5dadd1dca99e53d828b53c3dc00476.setContent(html_6b4cf59afcc21a0e43dc2b21186cf062);
+            
+        
+
+        marker_74c0da617eab088a31a2f0fa962654db.bindPopup(popup_3d5dadd1dca99e53d828b53c3dc00476)
+        ;
+
+        
+    
+    
+            var marker_b79d69acf3d311a513c501c4eb82f1b0 = L.marker(
+                [52.3437, 4.8628],
+                {}
+            ).addTo(map_bb343e7fdc29293ef92c179e89cbfd49);
+        
+    
+            var icon_1e95f18120d7131f7012b1a46111c90e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b79d69acf3d311a513c501c4eb82f1b0.setIcon(icon_1e95f18120d7131f7012b1a46111c90e);
+        
+    
+        var popup_5af56a49a75e55931ecc43932c7908a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7b4a36a22c71c24732b6f2abbdd44b7 = $(`<div id="html_a7b4a36a22c71c24732b6f2abbdd44b7" style="width: 100.0%; height: 100.0%;">Amsterdam Zuid</div>`)[0];
+                popup_5af56a49a75e55931ecc43932c7908a0.setContent(html_a7b4a36a22c71c24732b6f2abbdd44b7);
+            
+        
+
+        marker_b79d69acf3d311a513c501c4eb82f1b0.bindPopup(popup_5af56a49a75e55931ecc43932c7908a0)
+        ;
+
+        
+    
+</script>
+</html>
